@@ -1,7 +1,7 @@
-import { createSignal, onCleanup } from "solid-js";
 import type { Component } from "solid-js";
-import GameBoard from "./components/GameBoard";
+import { createSignal, onCleanup } from "solid-js";
 import Controls from "./components/Controls";
+import GameBoard from "./components/GameBoard";
 import { nextGeneration } from "./utils/gameLogic";
 import "./styles/App.css";
 
