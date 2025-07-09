@@ -40,7 +40,6 @@ const Controls: Component<ControlsProps> = (props) => {
 					type="button"
 					class="control-btn reset-btn"
 					onClick={props.onReset}
-					disabled={props.isRunning}
 				>
 					Reset
 				</button>
